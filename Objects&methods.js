@@ -5,7 +5,7 @@ const car = {
 };
 // function myfunc(){
 //     document.getElementById("demo").innerHTML = car;
-// }
+// } Doesn't work
 
 function myfunc() {
     document.getElementById("demo").innerHTML = "The car name is " + car.type;

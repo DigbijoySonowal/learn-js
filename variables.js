@@ -8,4 +8,7 @@ let roll_no = 7019;
 const sem = "6th"
 branch = "CSE";
 console.log(name + "\n" + roll_no + "\n" + branch);
-document.write(name+" "+roll_no+" "+sem+" sem "+branch);
+document.write(name + " " + roll_no + " " + sem + " sem " + branch);
+
+let a = 2 + 3 + "4"; //numbers treated as strings
+console.log(a);
